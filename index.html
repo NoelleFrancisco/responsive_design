@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <title>Reverie Resorts</title>
+</head>
+<body>
+  <!--Header Navigation-->
+    <nav>
+        <div class="logo">Reverie Resorts</div>
+        <ul class="links">
+            <li><a href="#rooms">Our Hotel</a></li>
+            <li><a href="#amenities">Explore</a></li>
+            <li><a href="#reservations">Book Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="welcome">
+        <div class="welcomenote">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> 
+        </div>
+    </section>
+
+    <section class="hotelroom" id="rooms">
+        <div class="bedroom">
+            <img src="./images/resortroom.jpg" alt="Relaxation Rooms">
+        </div>
+        <div class="bedroomtext">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quae laudantium excepturi enim accusantium provident?</p>
+        </div>
+    </section>
+
+    <section class="accommodations" id="amenities">
+        <div class="section3">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum maxime in quo itaque odio tenetur explicabo non sint aliquam?</p>
+        </div>
+        <div class="section4">
+            <img src="./images/amenities.jpg" alt="Amenities Available">
+
+        </div>
+    </section>
+
+    <section class="reservation" id="reservations">
+        <h3>Contact Form</h3>
+        <p>Please complete the form below and one of our representatives will contact you within 24 hours of receipt.</p>
+
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter first name">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter last name">
+        
+            <label for="contact">Contact Number</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter phone number (XXX) XXX-XXXX">
+
+            <label for="contact_time">Best Time for Contact</label>
+            <select id="contact_time" name="contact_time">
+              <option value="morning">Morning (8AM - 12PM EST)</option>
+              <option value="afternoon">Afternoon (12PM - 4PM EST)</option>
+              <option value="evening">Evening (4PM - 8PM EST)</option>
+            </select>
+        
+            <label for="subject">Reservation Request Details</label>
+            <textarea id="subject" name="subject" placeholder="Please specify dates requested and other accommodations needed." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </section>
+
+    <footer>
+        <h5>Contact Us</h5>
+        <h6>concierge@reverieresorts.com</h6>
+        <h6>555-555-5555</h6>
+    </footer>
+</body>
+</html>
